@@ -22,8 +22,8 @@ Paginate = 10
   
 [params]
     showRelatedPosts = true #for lightbi related posts
-    description = "Pornstar Monster"
-    author = "Pornstar Monster"
+    description = "Open source Online Tools, Converters."
+    author = "Sk Md Imtiaj"
     selfHosted = true
 	mainSections = ["post","posts"]
 	#dateFormat = "2 January 2023"
