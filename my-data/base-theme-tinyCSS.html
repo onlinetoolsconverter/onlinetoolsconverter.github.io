@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="en" class="astro-OQ7AFNKG">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta property="og:title" content="Tiny.css">
+    <meta property="og:description" content="A very minimalistic and beautiful css library.">
+
+    <title>Tiny.css</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/ihsan6133/tiny.css/main/assets/logo.svg" type="image/x-icon">
+    
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/light.css">
+    <link rel="preload" as="style" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/dark.css">
+
+
+    <link rel="stylesheet" id="stylesheet-link" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/tiny.css">
+
+    
+    <script>(function(){const tinycssAutoURL = "https://cdn.jsdelivr.net/npm/tiny.css@0/dist/tiny.css";
+const tinycssLightURL = "https://cdn.jsdelivr.net/npm/tiny.css@0/dist/light.css";
+const tinycssDarkURL = "https://cdn.jsdelivr.net/npm/tiny.css@0/dist/dark.css";
+
+        window.onload = () => {
+
+            const themeBtnDark   = document.querySelector(".theme-btn.dark");
+            const themeBtnLight  = document.querySelector(".theme-btn.light");
+            const stylesheetLink = document.querySelector("#stylesheet-link");
+            const dialog         = document.querySelector("dialog");
+            const dialogBtn      = document.querySelector(".dialogBtn");
+            const dialogCloseBtn = document.querySelector(".dialogCloseBtn");
+
+            themeBtnDark.addEventListener("click", () => {
+                if (themeBtnDark.classList.contains("active")) {
+                    stylesheetLink.href = tinycssAutoURL;
+                    themeBtnDark.classList.remove("active");
+                } else {    
+                    document.querySelector("#stylesheet-link").href = tinycssLightURL;
+                    themeBtnDark.classList.add("active");
+                    themeBtnLight.classList.remove("active");
+                }
+            });
+
+            themeBtnLight.addEventListener("click", () => {
+                if (themeBtnLight.classList.contains("active")) {
+                    stylesheetLink.href = tinycssAutoURL;
+                    themeBtnLight.classList.remove("active");
+                } else {
+                    document.querySelector("#stylesheet-link").href = tinycssDarkURL;
+                    themeBtnLight.classList.add("active");
+                    themeBtnDark.classList.remove("active");
+                }  
+            });
+
+            dialogBtn.onclick = () => {
+                dialog.showModal();
+            }
+
+            dialogCloseBtn.onclick = () => {
+                dialog.close();
+            }
+            
+        }
+    })();</script>
+<link rel="stylesheet" href="/_astro/tinycss.7307c8d2.css" /></head>
+<body class="astro-OQ7AFNKG">
+    <header class="astro-OQ7AFNKG">
+        <h1 class="astro-OQ7AFNKG">Tiny.css</h1>
+        <img class="logo astro-OQ7AFNKG" src="https://raw.githubusercontent.com/ihsan6133/tiny.css/main/assets/logo.svg" alt="Tiny.css Logo">
+    </header>
+
+    <p class="astro-OQ7AFNKG"><strong class="astro-OQ7AFNKG">Tiny.css</strong> is a <em class="astro-OQ7AFNKG">very</em> minimalistic css library to override the
+       horrendous default style with good looking design. If you quickly
+       want to get an html page up and running, tiny.css is for you!</p>
+    
+    <span style="display: flex; align-items: center; gap: 0.3rem;" class="astro-OQ7AFNKG">
+        <svg style="height: 1.3rem" viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg" class="astro-OQ7AFNKG">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z" fill="#24292f" class="astro-OQ7AFNKG"></path>
+        </svg>
+
+        <p class="astro-OQ7AFNKG">Visit the github repository <a href="https://github.com/ihsan6133/tiny.css" class="astro-OQ7AFNKG">here</a>!</p>
+    </span>
+    
+    <h2 class="astro-OQ7AFNKG">Installation</h2>
+
+    <p class="astro-OQ7AFNKG">Tiny.css is very simple to start using! Just add the following inside your <code class="astro-OQ7AFNKG">&lt;head&gt;</code> tag:</p>
+    <pre class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/tiny.css"&gt;</code></pre>
+
+    <p class="astro-OQ7AFNKG">This selects dark or light theme automatically by detecting system preference using <code class="astro-OQ7AFNKG">prefers-color-scheme</code> css media query. Alternatively, if you want only a specific theme, you can use the following:</p>
+    <p class="astro-OQ7AFNKG"><button class="theme-btn dark astro-OQ7AFNKG" title="Click to toggle">Light theme ☀️</button> :</p>
+    <pre class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/light.css"&gt;</code></pre>
+
+    <p class="astro-OQ7AFNKG"><button class="theme-btn light astro-OQ7AFNKG" title="Click to toggle">Dark theme 🌙</button> :</p>
+    <pre class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tiny.css@0/dist/dark.css"&gt;</code></pre>
+
+    <h2 class="astro-OQ7AFNKG">Customizability</h2>
+    
+    <p class="astro-OQ7AFNKG">Since tiny.css is structured with many top level variables for colors, so you can easily customize the color schemes by overriding the variables! Here are all the variables you can tweak:</p>
+    
+    <ul class="astro-OQ7AFNKG">
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--background-body</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--background</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--background-hover</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--text-main</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--text-bright</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--text-muted</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--button-base</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--button-hover</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--links</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--focus</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--table</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--table-bg</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--table-bg-alt</code></li>
+        <li class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">--box-shadow</code></li>
+    </ul>
+
+
+    <h2 class="astro-OQ7AFNKG">Demos</h2>
+
+    <input type="text" placeholder="Name" class="astro-OQ7AFNKG">
+    <br class="astro-OQ7AFNKG">
+
+    <pre class="astro-OQ7AFNKG"><code class="astro-OQ7AFNKG">// This is Javascript <br class="astro-OQ7AFNKG">console.log("Hello World!");</code></pre>
+    
+    <blockquote class="astro-OQ7AFNKG">
+        The HTML blockquote Element (or HTML Block Quotation Element)
+        indicates that the enclosed text is an extended quotation.
+        Usually, this is rendered visually by indentation (see Notes
+        for how to change it). A URL for the source of the quotation
+        may be given using the cite attribute, while a text 
+        representation of the source can be given using the 
+        <code class="astro-OQ7AFNKG">&lt;cite&gt;</code> element.
+        
+        <footer class="astro-OQ7AFNKG">
+            <cite class="astro-OQ7AFNKG">MDN, "The Block Quotation Element"</cite>
+        </footer>
+    </blockquote>
+
+    <button class="dialogBtn astro-OQ7AFNKG">Click me for dialog!</button>
+    <dialog class="astro-OQ7AFNKG">
+        <header class="astro-OQ7AFNKG">This is a dialog</header>
+        <button class="dialogCloseBtn astro-OQ7AFNKG">Close</button>
+    </dialog>
+    <details class="astro-OQ7AFNKG">
+        <summary class="astro-OQ7AFNKG">This is a sumary!</summary>
+        <p class="astro-OQ7AFNKG">These are the details</p>
+    </details>
+
+    <p class="astro-OQ7AFNKG">Here is a really nice table! </p>
+    <table class="astro-OQ7AFNKG">
+        <thead class="astro-OQ7AFNKG">
+            <tr class="astro-OQ7AFNKG">
+                <th class="astro-OQ7AFNKG">Name</th>
+                <th class="astro-OQ7AFNKG">Quantity</th>
+                <th class="astro-OQ7AFNKG">Price</th>
+            </tr>
+        </thead>
+        <tbody class="astro-OQ7AFNKG">
+            <tr class="astro-OQ7AFNKG">
+                <td class="astro-OQ7AFNKG">Apple</td>
+                <td class="astro-OQ7AFNKG">2</td>
+                <td class="astro-OQ7AFNKG">$2</td>
+            </tr>
+            <tr class="astro-OQ7AFNKG">
+                <td class="astro-OQ7AFNKG">Orange</td>
+                <td class="astro-OQ7AFNKG">3</td>
+                <td class="astro-OQ7AFNKG">$3</td>
+            </tr>
+            <tr class="astro-OQ7AFNKG">
+                <td class="astro-OQ7AFNKG">Banana</td>
+                <td class="astro-OQ7AFNKG">4</td>
+                <td class="astro-OQ7AFNKG">$4</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p class="astro-OQ7AFNKG">Here is an Image:</p>
+
+    <img src="https://placekitten.com/600/400" alt="Cat Picture" class="astro-OQ7AFNKG">
+
+</body></html>
