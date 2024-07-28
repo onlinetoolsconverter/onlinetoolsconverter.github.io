@@ -1,6 +1,6 @@
-baseURL = 'https://www.pornstar.monster/'
+baseURL = 'https://onlinetoolsconverter.github.io'
 languageCode = 'en-us'
-title = 'Pornstar.Monster'
+title = 'Online Tools, Converters.'
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
@@ -50,36 +50,20 @@ Paginate = 10
 #nav main menu
 
 [[menu.main]]
-    name = "Porn Stars"
-    url = "/PornStars/"
+    name = "Tools"
+    url = "/tag/tools/"
     weight = 1	
 
 [[menu.main]]
-    name = "Top 10"
+    name = ""
     url = "/Top10/"
     weight = 2
 
-[[menu.main]]
-    name = "Keywords"
-    url = "/PornKeywords/"
-    weight = 3
-	
-[[menu.main]]
-    name = "Indian"
-    url = "/Indian/"
-    weight = 4
-
-[[menu.main]]
-    name = "Videos"
-    url = "/Videos/"
-    weight = 5
 
 
 
-[[menu.main]]
-    name = "Photos"
-    url = "/Photos/"
-    weight = 6
+
+
 
 
 
@@ -87,41 +71,15 @@ Paginate = 10
 #menu for footer
 
 [[menu.footer]]
-    name = "Porn Stars"
-    url = "/PornStars/"
+    name = "Tools"
+    url = "/tag/tools/"
     weight = 1	
 
-[[menu.footer]]
-    name = "Top 10"
-    url = "/Top10/"
-    weight = 2
-
-[[menu.footer]]
-    name = "Keywords"
-    url = "/PornKeywords/"
-    weight = 3
-	
-[[menu.footer]]
-    name = "Indian"
-    url = "/Indian/"
-    weight = 4
-
-[[menu.footer]]
-    name = "Videos"
-    url = "/Videos/"
-    weight = 5
-
-
-
-[[menu.footer]]
-    name = "Photos"
-    url = "/Photos/"
-    weight = 6
     
 [[menu.footer]]
     name = "Tags"
     url = "/tags/"
-    weight = 6
+    weight = 2
 	
 
 
